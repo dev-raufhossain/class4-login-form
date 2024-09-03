@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #34495e;
+    font-family: "open sans" , sans-serif;
+}
+
+.box{
+    background-color: #fff;
+    margin: 0 auto;
+    width: 450px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 50px 0;
+    border-bottom: 5px solid #f39c12;
+}
+.inner-box{
+    margin: 0 auto;
+    width: 60%;
+
+}
+
+.box .logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #3498db;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.box h1{
+    font-size: 24px;
+    margin: 5px 0;
+    color: #f39c12;
+
+}
+.box h5{
+    font-size: 14px;
+    margin: 5px 0;
+    color: #95a5a6;
+    
+}
+
+.form-group{
+    margin: 10px 0;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn-login{
+    background-color: #2ecc71;
+    border: 1px solid #3498db;
+}
+
+.btn-register{
+    background-color: #3498db;
+    border: 1px solid #2ecc71;
+}
+.inner-box p{
+    margin: 3px 0;
+    color: #95a5a6;
+    font-size: 14px;
+    font-weight: 500;
+}
+.inner-box p span{
+    color: #9b59b6;
+    cursor: pointer;
+    font-weight: 600;
+}
+.inner-box a{
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* .box1, .box2{
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    overflow: scroll;
+}
+.box2{
+   padding: 50px;
+   box-sizing: border-box;
+} */
